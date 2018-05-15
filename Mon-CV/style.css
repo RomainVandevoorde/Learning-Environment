@@ -1,0 +1,39 @@
+h1, h2 {
+  font-family: sans-serif;
+}
+
+main {
+  width: 80%;
+  margin:0 auto;
+}
+
+section .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left p {
+  text-align: right;
+  padding-right: 3em;
+}
+
+.right {
+  flex: 4;
+}
+
+section h2 {
+  font-size: 1.2em;
+}
+
+section h1 {
+  padding-bottom: 1em;
+  border-bottom: 2px darkblue solid;
+}
