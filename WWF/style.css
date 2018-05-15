@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+}
+
+header #logo {
+  float: left;
+  background: no-repeat center url('img/wwf-logo.png');
+  background-size: contain;
+  width: 200px;
+  height: 100px;
+}
+
+nav a {
+  box-sizing: border-box;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 34px 1em;
+  height: 100px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+main {
+  width:80%;
+  margin:0 auto;
+}
+
+section {
+  background-color: #efefef;
+  margin:1em;
+}
+
+section .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.species, div.action {
+  box-sizing: border-box;
+  /* width:200px; */
+  padding: 1em;
+  flex:1;
+}
+
+div.species p {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+section#species img {
+  /* max-width:100%; */
+  width: 100%;
+  height:200px;
+}
+
+div.action h1 {
+  text-align:center;
+}
+
+section h2 {
+  padding: 1em 0 0 1em;
+  font-size: 1.5em;
+}
+
+
+section#news p {
+  padding: 1em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding:4px;
+}
