@@ -1,0 +1,90 @@
+body {
+  background-color: #e3e3e3;
+}
+
+#visitCard {
+  display: flex;
+  flex-direction: row;
+  margin:0 auto;
+  max-width: 1200px;
+  background-color: #6fbfda;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.1);
+  border: 1px grey solid;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: left;
+  justify-content: center;
+}
+
+#photo {
+  background: center center url('img/avatar.png') no-repeat white;
+  background-size: contain;
+  flex: 2;
+  max-width: 180px;
+  height: auto;
+  margin: 1em;
+  box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.15);
+}
+
+#introduction {
+  flex: 3;
+  text-align: left;
+}
+
+#introduction h1 {
+  font-size: 3em;
+  font-family: sans-serif;
+  color: white;
+  padding: 0;
+  margin: 6px 0;
+}
+
+#introduction h2 {
+  font-size: 1.4em;
+  font-family: sans-serif;
+  color: white;
+  margin: 6px 0;
+  font-weight: normal;
+}
+
+#introduction p {
+
+}
+
+#personalInfo {
+  flex: 3;
+  margin-left: 18px;
+  box-shadow: -30px 0px 56px -50px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  padding-left: 12px;
+}
+
+#personalInfo h3 {
+  margin: 6px 0;
+}
+
+#personalInfo p {
+  margin: 6px 0;
+}
+
+#personalInfo .row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+#personalInfo .left {
+  flex: 1;
+}
+
+#personalInfo .right {
+  flex: 2;
+}
