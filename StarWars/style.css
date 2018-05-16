@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+
+}
+
+#text {
+  height: 100vh;
+  transform: perspective(10em) rotateX(50deg) translateY(0);
+  width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: yellow;
+  animation-name: SW;
+  animation-duration: 100s;
+  /* animation-timing-function: cubic-bezier(0, 0.66, 1, 0.15); */
+}
+
+@keyframes SW {
+    from {transform: perspective(10em) rotateX(50deg) translateY(0);}
+    to {transform: perspective(10em) rotateX(50deg) translateY(-10000px);}
+}
+
+p {
+  text-align: justify;
+}
