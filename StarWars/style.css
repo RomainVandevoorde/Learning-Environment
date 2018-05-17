@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
@@ -8,9 +9,23 @@ main {
 
 }
 
+#stars {
+  width:100%;
+  height:200vh;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 100;
+  animation-name: camera;
+  animation-duration: 10s;
+  animation-delay: 60s;
+  animation-timing-function: cubic-bezier(0.84, 0.26, 0.27, 0.82);
+  animation-fill-mode: forwards;
+}
+
 #text {
+  z-index: 200;
   height: 100vh;
-  transform: perspective(10em) rotateX(50deg) translateY(0);
   width: 600px;
   margin: 0 auto;
   font-family: sans-serif;
@@ -18,13 +33,26 @@ main {
   font-weight: bold;
   color: yellow;
   animation-name: SW;
-  animation-duration: 100s;
-  /* animation-timing-function: cubic-bezier(0, 0.66, 1, 0.15); */
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 @keyframes SW {
-    from {transform: perspective(10em) rotateX(50deg) translateY(0);}
-    to {transform: perspective(10em) rotateX(50deg) translateY(-10000px);}
+    0% {transform: perspective(10em) rotateX(60deg) translateY(0);}
+    80% {
+      transform: perspective(10em) rotateX(60deg) translateY(-2400px);
+      opacity: 1;
+    }
+    100% {
+      transform: perspective(10em) rotateX(60deg) translateY(-3000px);
+      opacity: 0;
+    }
+}
+
+@keyframes camera {
+  from{transform: translateY(0);}
+  to{transform: translateY(-100vh);}
 }
 
 p {

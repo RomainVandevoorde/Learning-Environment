@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Romain Vandevoorde - Carte de visite</title>
+    <title>Crawler</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      window.onload = function(){
+        var starsContainer = document.getElementById('stars');
+        var vpWidth = window.innerWidth; // Viewport Width
+        var vpHeight = window.innerHeight; // Viewport Height
+
+        for(var i = 0; i < 1000; i++) {
+          var newStar = document.createElement('div');
+          var posX = Math.ceil(Math.random()*vpWidth);
+          var posY = Math.ceil(Math.random()*vpHeight*2);
+          newStar.style.cssText = 'width:2px;height:2px;background-color:white;position:absolute;';
+          newStar.style.cssText += 'left:'+posX+'px;top:'+posY+'px';
+          starsContainer.appendChild(newStar);
+        }
+      };
+    </script>
 </head>
 <body>
 
 <main>
+  <div id="stars">
+
+  </div>
   <div id="text">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut pharetra tellus.
-      Integer vehicula arcu neque, sed porttitor nulla ullamcorper eget. <br/><br/>
-      Vestibulum dapibus augue at venenatis tincidunt. Morbi suscipit efficitur venenatis.
-      Maecenas quis lobortis quam, in bibendum velit. <br/><br/>
-      Nunc magna dolor, fringilla sed bibendum et, consequat quis libero.
-      Cras iaculis ipsum justo, ut condimentum eros egestas at.
+      It is a period of civil war.
+      Rebel spaceships, striking
+      from a hidden base, have won
+      their first victory against
+      the evil Galactic Empire.
+      <br><br>
+      During the battle, Rebel
+      spies managed to steal secret
+      plans to the Empire's
+      ultimate weapon, the DEATH
+      STAR, an armored space
+      station with enough power to
+      destroy an entire planet.
+      <br><br>
+      Pursued by the Empire's
+      sinister agents, Princess
+      Leia races home aboard her
+      starship, custodian of the
+      stolen plans that can save
+      her people and restore
+      freedom to the galaxy.....
     </p>
   </div>
 </main>
