@@ -15,5 +15,5 @@ Page simple qui recrée approximativement le design de Pierre Giraud.
 **WIP** [Carte de visite (exercice 6)](https://romainvandevoorde.github.io/Learning-Environment/VCard/index.html)    
 Inspiré d'un template ThemeForest. Utilise flex.
 
-**WIP** [Scroller Star Wars (exercice 7)](https://romainvandevoorde.github.io/Learning-Environment/StarWars/index.html)    
-Scroller à la Star Wars utilisant les transformations et animations en CSS.
+[Crawler Star Wars (exercice 7)](https://romainvandevoorde.github.io/Learning-Environment/StarWars/index.html)    
+Crawler à la Star Wars utilisant les transformations et animations en CSS.

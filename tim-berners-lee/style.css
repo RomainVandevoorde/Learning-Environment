@@ -92,10 +92,10 @@ ul, li {
 
 #movies p {
   margin-left: 140px;
-  line-height: 1.4em;
+  line-height: 1.8em;
   margin-bottom: 3em;
 }
 
-#movies h3 {
-  text-align: center;
+#movies h2 {
+  margin-bottom: 2em;
 }

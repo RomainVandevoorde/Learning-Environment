@@ -1,0 +1,112 @@
+body {
+  background-color: #1e93cc;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button.cta {
+  background-color: #e99002;
+  padding: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.7em;
+}
+
+p.separator {
+  clear: both;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.6em;
+  height: 60px;
+  background-color: white;
+  margin: 1em 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  max-height: 100px;
+  background-color: #333333;
+}
+
+nav {
+  display: inline-block;
+}
+
+header a, footer a  {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+header .account {
+  float: right;
+}
+
+#intro {
+  padding: 2em 0;
+}
+
+#intro h2 {
+  color: white;
+}
+
+#intro .img-wrapper {
+  flex: 1;
+  height: auto;
+}
+
+#intro img {
+  width:100%;
+  max-width: 228px;
+}
+
+#intro .wrapper div {
+  flex: 4;
+  text-align: center;
+  padding: 2em;
+}
+
+#intro .wrapper {
+  display: flex;
+}
+
+#features {
+  color: white;
+}
+
+#features .row {
+  display: flex;
+}
+
+#features .row .feature {
+  padding: 1em;
+  flex: 1;
+}
+
+#features h2::before {
+  content: "> ";
+}
+
+footer {
+  background-color: #333333;
+}
+
+footer a {
+ border-left: 1px dashed white;
+ font-size: 0.8em;
+ padding: 4px;
+}
