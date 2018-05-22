@@ -6,7 +6,12 @@ body {
 }
 
 button {
-  padding: 0;
+  margin: 0;
+  padding: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.7em;
 }
 
 a {
@@ -15,21 +20,19 @@ a {
 
 button.cta {
   background-color: #e99002;
-  padding: 18px;
-  border-radius: 10px;
-  border: 2px solid white;
-  color: white;
-  font-size: 1.7em;
+}
+
+button.primary {
+  background-color: #165882;
 }
 
 p.separator {
-  clear: both;
   line-height: 60px;
   text-align: center;
   font-size: 1.6em;
   height: 60px;
   background-color: white;
-  margin: 1em 0;
+  margin: 0;
 }
 
 .wrapper {
@@ -57,7 +60,7 @@ header .account {
 }
 
 #intro {
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 #intro h2 {
@@ -101,12 +104,40 @@ header .account {
   content: "> ";
 }
 
+#teams {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 3em 0;
+}
+
+#teams img {
+  margin: 0 1em;
+}
+
+#callsToAction {
+  background-color: white;
+  text-align: center;
+  padding: 2em 0 5em 0;
+}
+
+#callsToAction button {
+  margin: 0 6px;
+}
+
 footer {
   background-color: #333333;
+  height: 40px;
+  padding-top: 10px;
 }
 
 footer a {
  border-left: 1px dashed white;
  font-size: 0.8em;
  padding: 4px;
+}
+
+footer p {
+  margin: 0;
+  float: right;
+  color: white;
 }
