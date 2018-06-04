@@ -1,0 +1,17 @@
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main.container {
+  padding: 20px;
+}
+
+ul.list-group li span {
+  margin-left: 10px;
+}
+
+#carte .row > div {
+  margin-bottom: 10px;
+}
